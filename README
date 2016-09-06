@@ -1,0 +1,4 @@
+virtualenv pyvenv && source pyvenv/bin/activate
+pip install -U pip setuptools
+pip install sphinx recommonmark
+sphinx-quickstart
